@@ -2,10 +2,11 @@
 int sum(int a, int b); //with argument with return value
 void printstar(int n); //with argument without return
 int takenumber(); //without argument with return
+void hello_world(); // without argument without return
 
 int main()
 {
-    int a , b , c;
+    int a , b ;
     a =  4;
     b = 6;
     sum(a,b);
@@ -40,4 +41,10 @@ int takenumber()
     scanf("%d",&p);
     printf("The number you entered is: %d \n",p);
     return 0;
+}
+
+//Function 4
+void hello_world()
+{
+    printf("Hello World! \n");
 }
